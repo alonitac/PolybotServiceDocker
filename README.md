@@ -21,8 +21,12 @@ You'll design, develop and deploy a service consisted by multiple containerized 
 ## Preliminaries
 
 
-1. Fork this repo (read [here][fork_github] how). 
-2. Clone your forked repository into a new PyCharm project (read [here][clone_pycharm] how).   
+1. Fork this repo by clicking **Fork** in the top-right corner of the page. 
+2. Clone your forked repository by:
+   ```bash
+   git clone https://github.com/<your-username>/<your-project-repo-name>
+   ```
+   Change `<your-username>` and `<your-project-repo-name>` according to your GitHub username and the name you gave to your fork. E.g. `git clone https://github.com/johndoe/PolybotServiceDocker`.
 3. It is a good practice to create an isolated Python virtual environment specifically for your project. 
    [Configure a new Python virtual environment in PyCharm](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html).
 4. This project involves working with virtual machines in AWS. You must have access to an AWS account to complete the project.
