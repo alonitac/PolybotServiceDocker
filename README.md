@@ -2,7 +2,7 @@
 > This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. Please [onboard the course][onboarding_tutorial] before starting. 
 > 
 > The project builds upon the concepts covered in our [previous Python project][PolybotServicePython].
-> To make ensure a smooth learning experience, we recommend completing the Python project first. 
+> To ensure a smooth learning experience, we recommend completing the Python project first. 
 
 
 # The Polybot Service: Docker Project [![][autotest_badge]][autotest_workflow]
@@ -21,8 +21,12 @@ You'll design, develop and deploy a service consisted by multiple containerized 
 ## Preliminaries
 
 
-1. Fork this repo (read [here][fork_github] how). 
-2. Clone your forked repository into a new PyCharm project (read [here][clone_pycharm] how).   
+1. Fork this repo by clicking **Fork** in the top-right corner of the page. 
+2. Clone your forked repository by:
+   ```bash
+   git clone https://github.com/<your-username>/<your-project-repo-name>
+   ```
+   Change `<your-username>` and `<your-project-repo-name>` according to your GitHub username and the name you gave to your fork. E.g. `git clone https://github.com/johndoe/PolybotServiceDocker`.
 3. It is a good practice to create an isolated Python virtual environment specifically for your project. 
    [Configure a new Python virtual environment in PyCharm](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html).
 4. This project involves working with virtual machines in AWS. You must have access to an AWS account to complete the project.
@@ -84,7 +88,7 @@ curl -X POST localhost:8081/predict?imgName=street.jpeg
 
 For example, here is an image and the corresponding results summary:
 
-<img src="https://alonitac.github.io/DevOpsTheHardWay/img/docker_project_street.jpeg" width="60%">
+<img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/docker_project_street.jpeg" width="60%">
 
 ```json
 {
@@ -152,7 +156,7 @@ Now let's integrate the `polybot` microservice with the `yolo5`. The integration
 
 Here is an end-to-end example of how it may look like:
 
-<img src="https://alonitac.github.io/DevOpsTheHardWay/img/docker_project_polysample.jpg" width="30%">
+<img src="https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/docker_project_polysample.jpg" width="30%">
 
 You are highly encouraged to leverage your code implementation from the previous [Python project][PolybotServicePython], or alternatively, to use the code sample given to you under `polybot/` directory.
 To get some guidance on how to implement the code, take a look at the `# TODO`s in `polybot/bot.py` file.
@@ -243,7 +247,7 @@ As always, if there are any failures, click on the failed job and **read the tes
 
 You are highly encourages to share your project with others by creating a **Pull Request**.
 
-Create a Pull Request from your repo, branch `main` (e.g. `johndoe/PolybotServiceDocker`) into our project repo (i.e. `alonitac/PolybotServiceDocker`), branch `main`.  
+Create a Pull Request from your repo, branch `main` (e.g. `johndoe/PolybotServiceDocker`) into our project repo (i.e. `exit-zero-academy/PolybotServiceDocker`), branch `main`.  
 Feel free to explore other's pull requests to discover different solution approaches.
 
 As it's only an exercise, we may not approve your pull request (approval would lead your changes to be merged into our original project). 
@@ -252,14 +256,14 @@ As it's only an exercise, we may not approve your pull request (approval would l
 ## Good Luck
 
 
-[DevOpsTheHardWay]: https://github.com/alonitac/DevOpsTheHardWay
-[onboarding_tutorial]: https://github.com/alonitac/DevOpsTheHardWay/blob/main/tutorials/onboarding.md
+[DevOpsTheHardWay]: https://github.com/exit-zero-academy/DevOpsTheHardWay
+[onboarding_tutorial]: https://github.com/exit-zero-academy/DevOpsTheHardWay/blob/main/tutorials/onboarding.md
 [autotest_badge]: ../../actions/workflows/project_auto_testing.yaml/badge.svg?event=push
 [autotest_workflow]: ../../actions/workflows/project_auto_testing.yaml/
 [fork_github]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository
 [clone_pycharm]: https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#clone-repo
 [github_actions]: ../../actions
 
-[PolybotServicePython]: https://github.com/alonitac/PolybotServicePython
-[docker_project_street]: https://alonitac.github.io/DevOpsTheHardWay/img/docker_project_street.jpeg
-[docker_project_polysample]: https://alonitac.github.io/DevOpsTheHardWay/img/docker_project_polysample.jpg
+[PolybotServicePython]: https://github.com/exit-zero-academy/PolybotServicePython
+[docker_project_street]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/docker_project_street.jpeg
+[docker_project_polysample]: https://exit-zero-academy.github.io/DevOpsTheHardWayAssets/img/docker_project_polysample.jpg
