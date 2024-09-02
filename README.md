@@ -1,8 +1,9 @@
 > [!IMPORTANT]
-> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. Please [onboard the course][onboarding_tutorial] before starting. 
-> 
+> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. 
+
+> [!TIP]
 > The project builds upon the concepts covered in our [previous Python project][PolybotServicePython].
-> To ensure a smooth learning experience, we recommend completing the Python project first. 
+> We recommend completing the Python project first. 
 
 
 # The Polybot Service: Docker Project [![][autotest_badge]][autotest_workflow]
