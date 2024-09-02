@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+> [!NOTE]
 > This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. 
 
 > [!TIP]
